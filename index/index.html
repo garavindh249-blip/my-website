@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of ARAVINDH — mobile apps, web experiences and digital products built to solve real-world problems.">
+    <meta name="keywords" content="developer, portfolio, mobile apps, flutter, firebase, product builder">
+    <meta name="author" content="ARAVINDH">
+
+    
+    <meta property="og:title" content="ARAVINDH — Developer & Product Builder">
+    <meta property="og:description" content="Portfolio of ARAVINDH — mobile apps, web experiences and digital products built to solve real-world problems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kd.dev">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ARAVINDH — Developer & Product Builder">
+    <meta name="twitter:description" content="Portfolio of ARAVINDH — mobile apps, web experiences and digital products built to solve real-world problems.">
+
+    <title>ARAVINDH — Developer & Product Builder</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="assets/projects/icon.jpg">
+    <link rel="apple-touch-icon" href="assets/projects/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <img src="assets/projects/icon.jpg" alt="ARAVINDH" class="splash-icon" id="splashIcon">
+            <h1 class="splash-title">NEXT EVOLUTION X GEN-Z</h1>
+        </div>
+    </div>
+
+    
+    <img src="assets/projects/icon.jpg" alt="" class="flying-icon" id="flyingIcon" aria-hidden="true">
+
+    
+    <canvas id="bgCanvas"></canvas>
+
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="assets/projects/icon.jpg" alt="ARAVINDH" class="nav-icon" id="navIcon">
+                <span class="logo-bracket">&lt;</span>ARAVINDH<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>AVAILABLE FOR OPPORTUNITIES</span>
+                </div>
+                <h1 class="hero-title">
+                    I Build Digital Products<br>
+                    <span class="hero-accent">That Solve Real Problems.</span>
+                </h1>
+                <p class="hero-description">
+                    Developer, designer and product builder creating useful mobile apps, web experiences and real-world solutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Projects</span>
+                        <svg class="btn-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary"><span>Let’s Connect</span></a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-filename">solution.js</span>
+                    </div>
+                    <div class="code-body">
+                        <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">idea</span> = <span class="code-param">problem</span>;</div>
+                        <div class="code-line blank"></div>
+                        <div class="code-line"><span class="code-keyword">if</span> (<span class="code-param">problem</span>) {</div>
+                        <div class="code-line indent"><span class="code-function">buildSolution</span>();</div>
+                        <div class="code-line">}</div>
+                        <div class="code-line blank"></div>
+                        <div class="code-line"><span class="code-comment">// Ship it.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="hero-stats">
+            <div class="stat-item"><span class="stat-number">06</span><span class="stat-label">Projects</span></div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item"><span class="stat-number">03+</span><span class="stat-label">Apps Built</span></div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item"><span class="stat-number">24+</span><span class="stat-label">Web Projects</span></div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item"><span class="stat-number">∞</span><span class="stat-label">Ideas</span></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-number">01</span>
+                <h2 class="section-title">A Developer Who Builds With Purpose.</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content" data-reveal>
+                    <p class="about-text">
+                        I’m a product builder who turns ideas into functional digital experiences.
+                        From mobile applications to web platforms, I focus on creating solutions that
+                        address real-world problems and deliver real value to real people.
+                    </p>
+                    <p class="about-text">
+                        I work across Flutter, Dart, JavaScript, Firebase, Supabase, MySQL and PHP — 
+                        but technology is only the tool. What drives me is the problem: connecting a
+                        local community, easing a daily commute, or making information more accessible.
+                    </p>
+                    <div class="about-roles">
+                        <div class="role-card"><span class="role-icon">◈</span><span class="role-text">Product Builder</span></div>
+                        <div class="role-card"><span class="role-icon">◈</span><span class="role-text">Mobile Developer</span></div>
+                        <div class="role-card"><span class="role-icon">◈</span><span class="role-text">Web Developer</span></div>
+                        <div class="role-card"><span class="role-icon">◈</span><span class="role-text">Problem Solver</span></div>
+                    </div>
+                </div>
+
+                <div class="about-visual" data-reveal>
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">A</div>
+                            <div class="profile-info">
+                                <span class="profile-name">ARAVINDH</span>
+                                <span class="profile-role">Developer</span>
+                            </div>
+                        </div>
+                        <div class="profile-stack">
+                            <span class="stack-item">Flutter</span>
+                            <span class="stack-item">Dart</span>
+                            <span class="stack-item">Firebase</span>
+                            <span class="stack-item">JavaScript</span>
+                            <span class="stack-item">Supabase</span>
+                            <span class="stack-item">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-number">02</span>
+                <h2 class="section-title">Things I’ve Built.</h2>
+                <p class="section-subtitle">Real products, experiments and solutions built around real-world problems.</p>
+            </div>
+
+            
+            <div class="project-filters" data-reveal role="tablist" aria-label="Filter projects by category">
+                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false">Mobile Apps</button>
+                <button class="filter-btn" data-filter="concept" role="tab" aria-selected="false">Concepts</button>
+                <button class="filter-btn" data-filter="utility" role="tab" aria-selected="false">Utility</button>
+            </div>
+
+            
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-number">03</span>
+                <h2 class="section-title">Tools I Build With.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category" data-reveal>
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><span class="skill-name">HTML5</span><span class="skill-desc">Semantic markup &amp; structure</span></div>
+                        <div class="skill-card"><span class="skill-icon">{ }</span><span class="skill-name">CSS3</span><span class="skill-desc">Modern layouts &amp; animations</span></div>
+                        <div class="skill-card"><span class="skill-icon">JS</span><span class="skill-name">JavaScript</span><span class="skill-desc">Interactive experiences</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-reveal>
+                    <h3 class="skill-category-title">Mobile</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><span class="skill-icon">F</span><span class="skill-name">Flutter</span><span class="skill-desc">Cross-platform development</span></div>
+                        <div class="skill-card"><span class="skill-icon">D</span><span class="skill-name">Dart</span><span class="skill-desc">Flutter’s language</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-reveal>
+                    <h3 class="skill-category-title">Backend / Database</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><span class="skill-icon">🔥</span><span class="skill-name">Firebase</span><span class="skill-desc">Auth, functions, hosting</span></div>
+                        <div class="skill-card"><span class="skill-icon">⚡</span><span class="skill-name">Firestore</span><span class="skill-desc">Real-time NoSQL database</span></div>
+                        <div class="skill-card"><span class="skill-icon">◎</span><span class="skill-name">Supabase</span><span class="skill-desc">Open-source Firebase alternative</span></div>
+                        <div class="skill-card"><span class="skill-icon">▦</span><span class="skill-name">MySQL</span><span class="skill-desc">Relational database</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-reveal>
+                    <h3 class="skill-category-title">Tools</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card"><span class="skill-icon">⎇</span><span class="skill-name">Git</span><span class="skill-desc">Version control</span></div>
+                        <div class="skill-card"><span class="skill-icon">⌘</span><span class="skill-name">GitHub</span><span class="skill-desc">Code hosting &amp; collaboration</span></div>
+                        <div class="skill-card"><span class="skill-icon">⌃</span><span class="skill-name">VS Code</span><span class="skill-desc">Primary editor</span></div>
+                        <div class="skill-card"><span class="skill-icon">A</span><span class="skill-name">Android Studio</span><span class="skill-desc">Mobile development</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-number">04</span>
+                <h2 class="section-title">From Idea → Product</h2>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-line" aria-hidden="true"></div>
+                <div class="process-step" data-reveal>
+                    <span class="step-number">01</span>
+                    <h3 class="step-title">Discover</h3>
+                    <p class="step-desc">Understand the problem deeply before writing a single line of code.</p>
+                </div>
+                <div class="process-step" data-reveal>
+                    <span class="step-number">02</span>
+                    <h3 class="step-title">Design</h3>
+                    <p class="step-desc">Design the experience, flows and architecture with the user in mind.</p>
+                </div>
+                <div class="process-step" data-reveal>
+                    <span class="step-number">03</span>
+                    <h3 class="step-title">Build</h3>
+                    <p class="step-desc">Develop the product with clean code and a solid backend foundation.</p>
+                </div>
+                <div class="process-step" data-reveal>
+                    <span class="step-number">04</span>
+                    <h3 class="step-title">Improve</h3>
+                    <p class="step-desc">Test, debug and continuously improve until the product truly works.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <div class="container">
+            <div class="philosophy-content" data-reveal>
+                <h2 class="philosophy-title">
+                    <span class="philosophy-line">I build for real problems.</span>
+                </h2>
+                <p class="philosophy-text">
+                    Ideas are everywhere. Useful products are not. Whether it’s connecting a local
+                    community, giving people a space for emotional expression, helping someone solve a
+                    problem instantly, making bus travel predictable, finding a place to charge, or
+                    discovering affordable food nearby — every project here exists because a real
+                    problem needed a real solution.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-card" data-reveal>
+                <div class="contact-grid">
+                    <div class="contact-image-side">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/projects/aravindh.jpg" alt="ARAVINDH" class="contact-image">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="assets/projects/vibe.jpg" alt="VIBE" class="contact-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-side">
+                        <h2 class="contact-title">Have an idea? Let build it.</h2>
+                        <p class="contact-text">
+                            I am always interested in building useful products, solving interesting problems and
+                            exploring new ideas.
+                        </p>
+                        <div class="contact-cta">
+                            <a href="mailto:garavindh249@gmail.com" class="btn btn-primary">
+                                <span>Email Me</span>
+                                <svg class="btn-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/g-aravindh-9229a8394/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+                            <a href="tel:6381872260" class="btn btn-secondary">Call Me</a>
+                        </div>
+                        <p class="contact-note">Reach out via <span class="mono">garavindh249@gmail.com</span> or <span class="mono">+91 6381872260</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="footer-logo">&lt;ARAVINDH/&gt;</span>
+                    <span class="footer-copyright">© 2026 ARAVINDH. Built BY NEX</span>
+                </div>
+                <div class="footer-right">
+                    <a href="https://www.linkedin.com/in/g-aravindh-9229a8394/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+                    <a href="mailto:garavindh249@gmail.com" class="footer-link">Email</a>
+                    <a href="tel:6381872260" class="footer-link">Call</a>
+                </div>
+            </div>
+            <p class="footer-tagline">Designed &amp; Built with curiosity.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-container" role="document">
+            <button class="modal-close" id="modalClose" aria-label="Close project details">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+
+    
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+        <div class="lightbox-stage">
+            <img src="" alt="" class="lightbox-image" id="lightboxImage">
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 4</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
